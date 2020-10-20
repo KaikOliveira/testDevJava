@@ -1,0 +1,76 @@
+.screenLogin {
+    background-color: #e0e0e0;
+    width: 100vw;
+    height: 100vh;
+    max-width: 880px;
+    max-height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenLogin #aviso {
+    background-color: #c0c0c0;
+    width: 350px;
+    height: 150px;
+
+    -webkit-box-shadow: -5px 12px 64px 22px rgba(00, 000, 000, 0.5);
+	-moz-box-shadow:    -5px 12px 64px 22px rgba(00, 000, 000, 0.5);
+	box-shadow:         -5px 12px 64px 22px rgba(00, 000, 000, 0.5);
+}
+
+#text #errorRow {
+    display: flex;
+    justify-content: row;
+
+    padding: 8px;
+    margin: 2px;
+    font-size: 18pt;
+    font-weight: 700;
+
+    align-items: center;
+    justify-content: center;
+}
+#text #errorRow p {
+    padding: 10px;
+}
+#text #errorDes {
+    display: flex;
+    justify-content: center;
+
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+#reloading {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 255px;
+    height: 35px;
+
+    transition: background-color 0.4s;
+    background-color: #d0d0d0;
+    
+    left: 15%;
+    top: 12%;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #404040 ;
+}
+
+#reloading:hover {
+    background-color: #404040;  
+    color: #fff;
+}
+#reloading p{
+    margin-top: 5px;
+}
+
+#aviso a{
+    text-decoration: none;
+    color: #000;
+}

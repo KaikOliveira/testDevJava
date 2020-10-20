@@ -5,6 +5,9 @@
     width: 100vw;
     height: 100vh;
 
+    max-width: 891px;
+    max-height: 681px;
+
     background: url('../../img/electric.jpg') no-repeat ; 
 
     display: flex;
@@ -12,7 +15,6 @@
     align-items: center;
 }
        
-
 #page .wrapper {
     position: relative;
 

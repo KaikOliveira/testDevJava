@@ -17,14 +17,14 @@ export default function Inico(){
                 <div id="forms">
                     <form>
                         <div id="user">
-                            <label>Usuario:</label> <input type="text" name="usuario" placeholder="Digite seu Usuario" />
+                            <label>Usuario:</label> <input type="text" name="usuario" placeholder="" />
                         </div>
                         <div id="senha">
-                            <label>Senha:</label> <input type="text" name="senha"placeholder="Digite sua Senha" />
+                            <label>Senha:</label> <input type="text" name="senha"placeholder=" ***** " />
                         </div>
                         <Link to="/lista">
                             <input className="botao" type="submit" value="Entrar" />
-                            </Link>
+                        </Link>
                     </form>
 
                 </div>
