@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.test.backjava.models.Subestacao;
 import com.test.backjava.repository.CadastroSubes;
 
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="http://localhost:3001")
 @RestController
 @RequestMapping(value="/api")
 public class SubestacaoResources {
